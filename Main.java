@@ -1,9 +1,12 @@
 public class Main {
     public static void main(String[] args){
-        int x= 23;
-        int y = 32;
-        int z= x+(y*x);
-        System.out.print("This is the value of Z");
-        System.out.println(z);
+var calculator = new TaxCalculator2018(100_000);
+var report= new TaxReport();
+report.show(calculator);
+
+
+//report.setCalculator();
+report.show(new TaxCalculator2019());
     }
+
 }
